@@ -160,7 +160,7 @@ function App() {
 
   return (
     <div className="App h-screen bg-[#FFF2F2]">
-      <nav className='flex md:flex-row flex-col justify-between items-center py-3 border-b-[1px] mx-44'>
+      <nav className='flex justify-between items-center py-3 border-b-[1px] md:mx-44 mx-5'>
         <div className='flex justify-center items-center gap-4 '>
           <h1 className='text-2xl font-bold py-5 text-[#7286D3]'>My Todo's List</h1>
           <FcTodoList size={50} />
