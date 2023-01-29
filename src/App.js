@@ -128,8 +128,7 @@ function App() {
       sessionStorage.setItem("name", data.user.displayName)
       setAdd(false)
       setAuth_alert(false)
-      getTodos();
-      getTodos_desc();
+      window.location.replace('/')
     })
 
   }
