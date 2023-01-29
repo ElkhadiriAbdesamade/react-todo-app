@@ -214,12 +214,12 @@ function App() {
         </div>
       }
 
-      {alert && <div className="flex justify-between py-2 px-8 rounded-lg mx-auto mt-3 bg-[#fad2e1]  text-[#7c193d] w-[50%] hover:scale-110 ease-in-out duration-500 hover:text-red-400">
+      {alert && <div className="flex justify-between py-2 px-8 rounded-lg mx-auto mt-3 bg-[#fad2e1]  text-[#7c193d] w-[360px] md:w-[50%] hover:scale-110 ease-in-out duration-500 hover:text-red-400">
         <p className="font-sans text-2xl">Pleas Fill The Information !</p>
         <button className="font-bold" onClick={() => { setAlert(false) }}>&#10005;</button>
       </div>}
 
-      {auth_alert && <div className="flex justify-between py-2 px-8 rounded-lg mx-auto mt-3 bg-[#fad2e1]  text-[#7c193d] w-[50%] hover:scale-110 ease-in-out duration-500 hover:text-red-400">
+      {auth_alert && <div className="flex justify-between py-2 px-8 rounded-lg mx-auto mt-3 bg-[#fad2e1]  text-[#7c193d] w-[360px] md:w-[50%] hover:scale-110 ease-in-out duration-500 hover:text-red-400">
         <p className="font-sans text-2xl">Pleas SignIn To Continue !</p>
         <button className="font-bold" onClick={() => { setAuth_alert(false) }}>&#10005;</button>
       </div>}
